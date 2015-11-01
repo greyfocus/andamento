@@ -20,7 +20,6 @@ public class Application {
   public static void main(String[] args) {
     ApplicationContext ctx = SpringApplication.run(Application.class, args);
 
-    LOG.info("Loaded application " + ctx.getApplicationName() + " composed of " + ctx.getBeanDefinitionCount()
-        + " beans.");
+    LOG.info("Loaded the application context composed of " + ctx.getBeanDefinitionCount() + " beans.");
   }
 }
