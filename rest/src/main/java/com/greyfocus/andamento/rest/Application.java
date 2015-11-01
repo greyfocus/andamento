@@ -1,4 +1,4 @@
-package com.greyfocus.sensors.rest;
+package com.greyfocus.andamento.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

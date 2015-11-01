@@ -1,4 +1,4 @@
-package com.greyfocus.sensors.model;
+package com.greyfocus.andamento.model;
 
 /**
  * Represents a real life sensor.

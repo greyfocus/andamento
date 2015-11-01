@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.greyfocus.sensors</groupId>
-    <artifactId>sensors-parent</artifactId>
+    <groupId>com.greyfocus.andamento</groupId>
+    <artifactId>andamento-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>sensors-model</artifactId>
+  <artifactId>andamento-model</artifactId>
   <packaging>jar</packaging>
-  <name>sensors-model</name>
+  <name>andamento-model</name>
 
 </project>

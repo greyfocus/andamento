@@ -1,4 +1,4 @@
-package com.greyfocus.sensors.rest.model;
+package com.greyfocus.andamento.rest.model;
 
 import java.util.Date;
 

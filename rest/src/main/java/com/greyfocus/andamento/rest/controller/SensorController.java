@@ -1,4 +1,4 @@
-package com.greyfocus.sensors.rest.controller;
+package com.greyfocus.andamento.rest.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.greyfocus.sensors.model.Sensor;
-import com.greyfocus.sensors.rest.model.RestResponse;
-import com.greyfocus.sensors.rest.model.RestResponse.Status;
+import com.greyfocus.andamento.model.Sensor;
+import com.greyfocus.andamento.rest.model.RestResponse;
+import com.greyfocus.andamento.rest.model.RestResponse.Status;
 
 @RestController
 @RequestMapping("/sensor")
