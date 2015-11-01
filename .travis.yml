@@ -1,0 +1,12 @@
+language: java
+jdk:
+        - oraclejdk8
+script:
+        mvn verify
+
+after_failure:
+        - cat logic/target/surefire-reports/*.txt
+        - cat model/target/surefire-reports/*.txt
+        - cat persistence/target/surefire-reports/*.txt
+        - cat rest/target/surefire-reports/*.txt
+
